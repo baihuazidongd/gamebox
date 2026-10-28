@@ -1,11 +1,11 @@
 {
-    "version": "1.3.0",
-    "changelog": "1.3.0\n- 单文件 exe 自更新：新版本自动下载，重启后生效\n- 更新源改用 GitHub 仓库（免费、无需自建服务器）\n- 榜单详情新增「找相似」：跨站搜同款，按免费优先排序，结果会记住\n- 榜单详情新增「购买并下载」：金币下单后直接解析网盘链接\n- 详情弹窗排版重做：固定尺寸、右栏滚动，不再有大片空白\n- 修复单实例 IPC 分片导致长命令被截断\n- 修复广告拦截器未生效、下载重试报错",
+    "version": "1.3.1",
+    "changelog": "1.3.1\n- 修复打包后图标全部丢失：窗口、任务栏、托盘都没有图标\n  （资源路径少算一层目录，源码跑正常所以很难发现）\n- 托盘图标恢复后，「关窗进后台」才看得出来 —— 之前进程其实\n  已经收进托盘，但图标不显示，找不到它",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.3.0/GameBox-1.3.0.exe",
-            "sha256": "e9b29f4fe05059ac016f7bffdaa0653ace7e6e2d4b42abb6711d479016a5e354",
-            "size": 265984535
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.3.1/GameBox-1.3.1.exe",
+            "sha256": "c36f77a492e0dcb7fef2c87eee963a7670aea2960307f8cd1f6957d86a3e868a",
+            "size": 266050782
         }
     }
 }
