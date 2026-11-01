@@ -4,8 +4,8 @@
     "binary": {
         "x64": {
             "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.0/GameBox-1.5.0.exe",
-            "sha256": "e2fed21338ceb747740f85bc67342a500ac8a18e4c5cbfa67daa4c7edac706ca",
-            "size": 268738310
+            "sha256": "ca4afee765504ccd249a52e0739508373d444bd1f57cd6be9ea3a42d67e641a3",
+            "size": 268739616
         }
     }
 }
