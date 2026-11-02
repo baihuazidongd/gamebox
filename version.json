@@ -1,11 +1,11 @@
 {
-    "version": "1.5.0",
-    "changelog": "1.5.0\n- 游戏盒新增「展柜」模式：上面一排缩略图、中间大图、下面一排，滚轮或左右键切换，找游戏不用滚半天\n- 封面更准：站点复用同一页面时先核对标题再取图，不再把别的游戏封面贴过来\n- 全CG解锁加了体检：逐个游戏判断到底解锁没有，并给出判断依据\n- 本地解锁方案先出报告再动手，写入前自动备份\n- 更新优先走自建服务器，GitHub 作为备用，某个地址下载失败会自动换道",
+    "version": "1.5.1",
+    "changelog": "1.5.1\n- 新增收藏同步：电脑生成一串 10 位同步码，手机输入同一个码，两边的收藏自动对齐\n- 同步走服务器中转，手机换 Wi-Fi、切流量都能同步，电脑也不用一直开着\n- 手机上删掉的收藏不会在电脑上「复活」，反过来也一样\n- 「更新服务器」设置里的提示改成直接说要不要填，不再显示服务器地址",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.0/GameBox-1.5.0.exe",
-            "sha256": "ca4afee765504ccd249a52e0739508373d444bd1f57cd6be9ea3a42d67e641a3",
-            "size": 268739616
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.1/GameBox-1.5.1.exe",
+            "sha256": "d24ae614babb4c95fc3ed9277b4e3ebb3406f32c8b7512eac8a242a935bbb4d0",
+            "size": 272932230
         }
     }
 }
