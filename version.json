@@ -1,11 +1,11 @@
 {
-    "version": "1.5.2",
-    "changelog": "1.5.2\n- 更新弹窗现在会显示这次更新来自哪里（自建服务器 / GitHub），方便确认走的是哪条通道\n- 修复更新完成后日志里没有记录更新来源的问题",
+    "version": "1.5.3",
+    "changelog": "1.5.3\n- 发现新版本会主动弹窗提示，不用再自己去找\n- 更新可以后台下载：点「立即更新」后关掉窗口也继续下，下完会提醒你重启\n- 新增暂停 / 继续，断了会从断点接着下，不用从头再来\n- 更新弹窗去掉了「跳过此版本」和「稍后」两个没用的按钮",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.2/GameBox-1.5.2.exe",
-            "sha256": "bb5f5976dfe47ac3a2d9866e6aa0a95989aa55b625b727e580735a83dd272500",
-            "size": 272932831
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.3/GameBox-1.5.3.exe",
+            "sha256": "34a509a7b3f4f44914e306b8319266afc83e5bfe30317617652fe45b63b23ebd",
+            "size": 272941245
         }
     }
 }
