@@ -1,11 +1,11 @@
 {
-    "version": "1.5.4",
-    "changelog": "1.5.4\n- 修复点「立即重启」会报错（incorrect header check）的问题\n- 修复点「立即重启」后版本号没变、要再手动开一次才更新的问题\n- 现在点一次就能完成更新并自动打开新版",
+    "version": "1.5.5",
+    "changelog": "1.5.5\n- 修复点「立即重启」报错（Failed to start embedded python interpreter）\n- 修复点「立即重启」后没反应、要再手动点一次 exe 才更新\n- 现在点一次就完成：程序退出后由外部脚本替换文件并启动新版",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.4/GameBox-1.5.4.exe",
-            "sha256": "f2f09768d15ade6035d2deac3016c95248986d3bd6038b316799490559413eb5",
-            "size": 272943961
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.5/GameBox-1.5.5.exe",
+            "sha256": "e7097bc627e7e1c24e40b8abb0ed872f1ed5eb4531bf35d8821b1a0dbf543579",
+            "size": 272944790
         }
     }
 }
