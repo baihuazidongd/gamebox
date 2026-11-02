@@ -1,11 +1,11 @@
 {
-    "version": "1.5.3",
-    "changelog": "1.5.3\n- 发现新版本会主动弹窗提示，不用再自己去找\n- 更新可以后台下载：点「立即更新」后关掉窗口也继续下，下完会提醒你重启\n- 新增暂停 / 继续，断了会从断点接着下，不用从头再来\n- 更新弹窗去掉了「跳过此版本」和「稍后」两个没用的按钮",
+    "version": "1.5.4",
+    "changelog": "1.5.4\n- 修复点「立即重启」会报错（incorrect header check）的问题\n- 修复点「立即重启」后版本号没变、要再手动开一次才更新的问题\n- 现在点一次就能完成更新并自动打开新版",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.3/GameBox-1.5.3.exe",
-            "sha256": "34a509a7b3f4f44914e306b8319266afc83e5bfe30317617652fe45b63b23ebd",
-            "size": 272941245
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.4/GameBox-1.5.4.exe",
+            "sha256": "f2f09768d15ade6035d2deac3016c95248986d3bd6038b316799490559413eb5",
+            "size": 272943961
         }
     }
 }
