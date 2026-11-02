@@ -1,11 +1,11 @@
 {
-    "version": "1.5.1",
-    "changelog": "1.5.1\n- 新增收藏同步：电脑生成一串 10 位同步码，手机输入同一个码，两边的收藏自动对齐\n- 同步走服务器中转，手机换 Wi-Fi、切流量都能同步，电脑也不用一直开着\n- 手机上删掉的收藏不会在电脑上「复活」，反过来也一样\n- 「更新服务器」设置里的提示改成直接说要不要填，不再显示服务器地址",
+    "version": "1.5.2",
+    "changelog": "1.5.2\n- 更新弹窗现在会显示这次更新来自哪里（自建服务器 / GitHub），方便确认走的是哪条通道\n- 修复更新完成后日志里没有记录更新来源的问题",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.1/GameBox-1.5.1.exe",
-            "sha256": "d24ae614babb4c95fc3ed9277b4e3ebb3406f32c8b7512eac8a242a935bbb4d0",
-            "size": 272932230
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.2/GameBox-1.5.2.exe",
+            "sha256": "bb5f5976dfe47ac3a2d9866e6aa0a95989aa55b625b727e580735a83dd272500",
+            "size": 272932831
         }
     }
 }
