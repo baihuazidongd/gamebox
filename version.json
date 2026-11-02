@@ -1,11 +1,11 @@
 {
-    "version": "1.5.5",
-    "changelog": "1.5.5\n- 修复点「立即重启」报错（Failed to start embedded python interpreter）\n- 修复点「立即重启」后没反应、要再手动点一次 exe 才更新\n- 现在点一次就完成：程序退出后由外部脚本替换文件并启动新版",
+    "version": "1.5.6",
+    "changelog": "1.5.6\n- 收藏同步：面板改成「输入配对码 → 连接」，一眼就能用\n- 同步节奏：前台每 5 分钟一次，后台不联网，回前台补一次（共用冷却）\n- 支持用配对码把第二台电脑接入同一个空间",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.5/GameBox-1.5.5.exe",
-            "sha256": "e7097bc627e7e1c24e40b8abb0ed872f1ed5eb4531bf35d8821b1a0dbf543579",
-            "size": 272944790
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.6/GameBox-1.5.6.exe",
+            "sha256": "294972e946fdbb2f77aee3330f64025e77f59b058b932eb49cb9d730786536fa",
+            "size": 272948800
         }
     }
 }
