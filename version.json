@@ -1,11 +1,11 @@
 {
-    "version": "1.5.6",
-    "changelog": "1.5.6\n- 收藏同步：面板改成「输入配对码 → 连接」，一眼就能用\n- 同步节奏：前台每 5 分钟一次，后台不联网，回前台补一次（共用冷却）\n- 支持用配对码把第二台电脑接入同一个空间",
+    "version": "1.5.7",
+    "changelog": "1.5.7\n- 修复没有焦点就反复进出低功耗导致的卡顿：现在只有真的收进托盘才会降载\n- 更新检查改成定期复查（默认 30 分钟），程序一直开着也能收到新版本通知\n- 修复更新后启动报 Failed to load Python DLL / 找不到指定模块的问题",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.6/GameBox-1.5.6.exe",
-            "sha256": "294972e946fdbb2f77aee3330f64025e77f59b058b932eb49cb9d730786536fa",
-            "size": 272948800
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.7/GameBox-1.5.7.exe",
+            "sha256": "0acc3f8741c06f0e415054dcd463094317a64043fe33a0e1de59150b1a1a8b94",
+            "size": 272950362
         }
     }
 }
