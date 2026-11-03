@@ -1,11 +1,11 @@
 {
-    "version": "1.5.12",
-    "changelog": "1.5.12\n- 修复游戏盒空着时切到「展柜」一片空白、没有任何说明的问题：现在两种布局都会显示「游戏盒还是空的」和三个入口按钮",
+    "version": "1.5.13",
+    "changelog": "1.5.13\n- 查明并修复更新后报「Failed to load Python DLL」：解包残骸每个占 674MB，堆多了磁盘不够，新版本解包写到一半就失败。现在按进程号精确回收，只删已失效的\n- 更新脚本改为全程记录日志（换文件、哈希校验、启动确认、磁盘剩余空间），日志不再被自动删除\n- 新版启动失败会自动回滚成旧版并打开，程序不会再变成打不开\n- 换完文件会校验 SHA256，传坏或挪坏当场发现",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.12/GameBox-1.5.12.exe",
-            "sha256": "3cb4a8cee13d8c80966d5ad6ed5f0fc710c19984df91cd137c3c7e99904a2ba3",
-            "size": 272947952
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.13/GameBox-1.5.13.exe",
+            "sha256": "4a2cdc1ff280e8772024d80b0a1e20de4f3b391eca5ad0fc0356a949e617518c",
+            "size": 272950177
         }
     }
 }
