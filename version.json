@@ -1,11 +1,11 @@
 {
-    "version": "1.5.9",
-    "changelog": "1.5.9\n- 游戏简介面板改进：简介和截图分开加载，抓到就缓存 7 天，再打开是秒出\n- 简介抓不到时安静收起、不占地方，需要时可以点「重新抓取」再来一次\n- 截图可以点开看大图，窗口缩放时自动等比适配",
+    "version": "1.5.10",
+    "changelog": "1.5.10\n- 更新过程全程记录日志：换文件每一步、重试次数、成功或失败原因都写进安装目录的 _gb_update.log\n- 换文件失败会自动回滚，保证程序还能正常打开，不会变成打不开的状态\n- 重试次数从 10 次提高到 15 次，慢机器上更容易换成功",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.9/GameBox-1.5.9.exe",
-            "sha256": "e9a9d8739a381463c5bb2185335dfbcabb09e0cc56f9b5a4ac7ba5fa18a5c3d1",
-            "size": 272944393
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.10/GameBox-1.5.10.exe",
+            "sha256": "db7ae53e2bff40290fdf3db29dc8ab917f125e939bf85f7253ae27e070c421ba",
+            "size": 272946276
         }
     }
 }
