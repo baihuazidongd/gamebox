@@ -1,11 +1,11 @@
 {
-    "version": "1.5.10",
-    "changelog": "1.5.10\n- 更新过程全程记录日志：换文件每一步、重试次数、成功或失败原因都写进安装目录的 _gb_update.log\n- 换文件失败会自动回滚，保证程序还能正常打开，不会变成打不开的状态\n- 重试次数从 10 次提高到 15 次，慢机器上更容易换成功",
+    "version": "1.5.11",
+    "changelog": "1.5.11\n- 修复更新后启动报「Failed to load Python DLL / 找不到指定的模块」：程序不再清理自己的解包运行库，这是之前那个报错的直接原因\n- 解包目录残留只在日志里提示，不再自动删除，避免误删正在使用的文件",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.10/GameBox-1.5.10.exe",
-            "sha256": "db7ae53e2bff40290fdf3db29dc8ab917f125e939bf85f7253ae27e070c421ba",
-            "size": 272946276
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.11/GameBox-1.5.11.exe",
+            "sha256": "53de7e38571bc33d57afa70d2ff271110c235b6b4f66a9b3664786f85157d328",
+            "size": 272947221
         }
     }
 }
