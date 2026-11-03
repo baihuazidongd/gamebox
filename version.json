@@ -1,11 +1,11 @@
 {
-    "version": "1.5.13",
-    "changelog": "1.5.13\n- 查明并修复更新后报「Failed to load Python DLL」：解包残骸每个占 674MB，堆多了磁盘不够，新版本解包写到一半就失败。现在按进程号精确回收，只删已失效的\n- 更新脚本改为全程记录日志（换文件、哈希校验、启动确认、磁盘剩余空间），日志不再被自动删除\n- 新版启动失败会自动回滚成旧版并打开，程序不会再变成打不开\n- 换完文件会校验 SHA256，传坏或挪坏当场发现",
+    "version": "1.5.14",
+    "changelog": "1.5.14\n- 游戏盒空状态的提示卡片改为居中显示，不再沉在下面留一大片空白\n- 卡片同时限制宽度，宽屏上不会被拉成一条横幅",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.13/GameBox-1.5.13.exe",
-            "sha256": "4a2cdc1ff280e8772024d80b0a1e20de4f3b391eca5ad0fc0356a949e617518c",
-            "size": 272950177
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.14/GameBox-1.5.14.exe",
+            "sha256": "2c70a13bd14f5ee79bb8bc69834faa2d34e55292263d37920860dec5c9bec1a0",
+            "size": 272948563
         }
     }
 }
