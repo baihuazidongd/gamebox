@@ -1,11 +1,11 @@
 {
-    "version": "1.5.17",
-    "changelog": "1.5.17\n- 查明更新后报 Failed to load Python DLL 的环境因素：重启脚本启动新进程时改动了临时目录环境变量，新进程继承了它导致运行库加载失败\n- 现在新版改经 explorer 启动，和手动双击完全等价（环境干净）\n- 握手确认延长到 150 秒，慢机器也更稳\n- 回滚前先结束占用文件的旧进程，保证回滚一定成功",
+    "version": "1.5.18",
+    "changelog": "1.5.18\n- 新版启动 25 秒未就绪会自动结束并重开一次（第二次必然跳过了杀毒扫描），两次都失败才回滚\n- 这直接把你「手动再点一次就好」的动作自动化了",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.17/GameBox-1.5.17.exe",
-            "sha256": "b640654d9af2750ffd0ed432dfd9f3071dc8c5d03e061a3e092cb1d3e9049fa1",
-            "size": 272952141
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.18/GameBox-1.5.18.exe",
+            "sha256": "5002e6cdcfb3e1f38f950fe5596fada96689cf604640f0bb0e5ab36c619dbe4f",
+            "size": 272950560
         }
     }
 }
