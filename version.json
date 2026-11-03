@@ -1,11 +1,11 @@
 {
-    "version": "1.5.8",
-    "changelog": "1.5.8\n- 更新相关请求绕开系统代理：很多代理不转发自建服务器的端口，之前它会接到 502 然后整个检查失败，走 GitHub 直链又连不上\n- 源码方式的运行（比如某些快捷方式）不再弹更新提示，也不会再出现假版本号的打扰\n- 更新失败后不会再出现「下载失败：」后面一片空白的日志",
+    "version": "1.5.9",
+    "changelog": "1.5.9\n- 游戏简介面板改进：简介和截图分开加载，抓到就缓存 7 天，再打开是秒出\n- 简介抓不到时安静收起、不占地方，需要时可以点「重新抓取」再来一次\n- 截图可以点开看大图，窗口缩放时自动等比适配",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.8/GameBox-1.5.8.exe",
-            "sha256": "ec966d95b713034b7f008e74620569c3ac370c515a52fb4f8416268e46a019f4",
-            "size": 272951583
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.9/GameBox-1.5.9.exe",
+            "sha256": "e9a9d8739a381463c5bb2185335dfbcabb09e0cc56f9b5a4ac7ba5fa18a5c3d1",
+            "size": 272944393
         }
     }
 }
