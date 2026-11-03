@@ -1,11 +1,11 @@
 {
-    "version": "1.5.15",
-    "changelog": "1.5.15\n- 修复点「立即重启」后报 Failed to load Python DLL 的最后一种情形：旧进程退出时的清理收尾拖得太久，把新进程刚解包好的运行库删掉了\n- 现在新进程解包完成后会主动通知重启脚本（握手），脚本等到握手才算成功，不再赌固定秒数\n- 90 秒等不到握手就自动回滚成旧版并打开，程序不会再变成打不开",
+    "version": "1.5.16",
+    "changelog": "1.5.16\n- 修复游戏盒空状态卡片不居中：空滚动区占走了另一半空间，把卡片挤到下半截。现在空库时隐藏空滚动区，卡片真正居中",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.15/GameBox-1.5.15.exe",
-            "sha256": "7d8535b5d34a79334798406cc4ecf1fc655c5a01c97f3fa2b0935df3fe1e38bf",
-            "size": 272952333
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.16/GameBox-1.5.16.exe",
+            "sha256": "fe97db8cab8aff54c9b0cf424e19339d1d05ad4cb0889a89f08fc908dc670e10",
+            "size": 272951718
         }
     }
 }
