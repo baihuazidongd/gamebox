@@ -1,11 +1,11 @@
 {
-    "version": "1.5.7",
-    "changelog": "1.5.7\n- 修复没有焦点就反复进出低功耗导致的卡顿：现在只有真的收进托盘才会降载\n- 更新检查改成定期复查（默认 30 分钟），程序一直开着也能收到新版本通知\n- 修复更新后启动报 Failed to load Python DLL / 找不到指定模块的问题",
+    "version": "1.5.8",
+    "changelog": "1.5.8\n- 更新相关请求绕开系统代理：很多代理不转发自建服务器的端口，之前它会接到 502 然后整个检查失败，走 GitHub 直链又连不上\n- 源码方式的运行（比如某些快捷方式）不再弹更新提示，也不会再出现假版本号的打扰\n- 更新失败后不会再出现「下载失败：」后面一片空白的日志",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.7/GameBox-1.5.7.exe",
-            "sha256": "0acc3f8741c06f0e415054dcd463094317a64043fe33a0e1de59150b1a1a8b94",
-            "size": 272950362
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.8/GameBox-1.5.8.exe",
+            "sha256": "ec966d95b713034b7f008e74620569c3ac370c515a52fb4f8416268e46a019f4",
+            "size": 272951583
         }
     }
 }
