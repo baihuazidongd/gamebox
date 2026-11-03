@@ -1,11 +1,11 @@
 {
-    "version": "1.5.11",
-    "changelog": "1.5.11\n- 修复更新后启动报「Failed to load Python DLL / 找不到指定的模块」：程序不再清理自己的解包运行库，这是之前那个报错的直接原因\n- 解包目录残留只在日志里提示，不再自动删除，避免误删正在使用的文件",
+    "version": "1.5.12",
+    "changelog": "1.5.12\n- 修复游戏盒空着时切到「展柜」一片空白、没有任何说明的问题：现在两种布局都会显示「游戏盒还是空的」和三个入口按钮",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.11/GameBox-1.5.11.exe",
-            "sha256": "53de7e38571bc33d57afa70d2ff271110c235b6b4f66a9b3664786f85157d328",
-            "size": 272947221
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.12/GameBox-1.5.12.exe",
+            "sha256": "3cb4a8cee13d8c80966d5ad6ed5f0fc710c19984df91cd137c3c7e99904a2ba3",
+            "size": 272947952
         }
     }
 }
