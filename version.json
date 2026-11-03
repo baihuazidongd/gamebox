@@ -1,11 +1,11 @@
 {
-    "version": "1.5.16",
-    "changelog": "1.5.16\n- 修复游戏盒空状态卡片不居中：空滚动区占走了另一半空间，把卡片挤到下半截。现在空库时隐藏空滚动区，卡片真正居中",
+    "version": "1.5.17",
+    "changelog": "1.5.17\n- 查明更新后报 Failed to load Python DLL 的环境因素：重启脚本启动新进程时改动了临时目录环境变量，新进程继承了它导致运行库加载失败\n- 现在新版改经 explorer 启动，和手动双击完全等价（环境干净）\n- 握手确认延长到 150 秒，慢机器也更稳\n- 回滚前先结束占用文件的旧进程，保证回滚一定成功",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.16/GameBox-1.5.16.exe",
-            "sha256": "fe97db8cab8aff54c9b0cf424e19339d1d05ad4cb0889a89f08fc908dc670e10",
-            "size": 272951718
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.17/GameBox-1.5.17.exe",
+            "sha256": "b640654d9af2750ffd0ed432dfd9f3071dc8c5d03e061a3e092cb1d3e9049fa1",
+            "size": 272952141
         }
     }
 }
