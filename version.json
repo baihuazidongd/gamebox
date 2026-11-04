@@ -1,11 +1,11 @@
 {
-    "version": "1.5.21",
-    "changelog": "1.5.21\n- 修「收藏同步已开启但我的收藏是空的」：榜单页「我的收藏」现在会把当前同步空间里的收藏一起列出来\n- 两套收藏仍然各存各的：同步那份不会写进本地收藏文件，避免加入别人空间后把对方收藏串回自己空间\n- 在「我的收藏」里取消同步来的那条，会同时删同步那边（留墓碑，手机下次同步不会又顶回来）\n- 修「立即同步」失败却没有任何提示：同步没在运行时现在会明确告诉你原因",
+    "version": "1.5.22",
+    "changelog": "1.5.22\n- 更新包改成分片并发下载（8 路）：实测单连接被限到约 2Mbps，8 路能到约 27Mbps\n- 260MB 更新包从约 14 分钟降到 1~2 分钟（实测 3.33MB/s，80 秒下完）\n- 服务端不支持断点续传时自动退回原来的单连接下载，不会失败\n- 暂停 / 继续 / 关窗口后台下载 全部保留可用\n- 刷新按钮只作用于当前页签：「我的收藏」点刷新不再去抓整站榜单，状态栏也只显示当前页签的条数",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.21/GameBox-1.5.21.exe",
-            "sha256": "fde4a2291f8d59c1331a29ce928c7c22b91bb8e42171feecdeccf70b21fe4c0a",
-            "size": 273224926
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.22/GameBox-1.5.22.exe",
+            "sha256": "e81fb6b905f5fa6ab0bee1da9ea6766e11f44719d9fa3ee33b6ece1619bbf97f",
+            "size": 273233986
         }
     }
 }
