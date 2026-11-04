@@ -1,11 +1,11 @@
 {
-    "version": "1.5.20",
-    "changelog": "1.5.20\n- 新增「汉化」功能：顶栏 ⋯ → 汉化…，或游戏卡「更多操作 → 汉化…」\n- 导出文本：把游戏里的台词/选项/物品名/术语导成 CSV 交给翻译，38000 条约 15 秒\n- 导入翻译文件：认 CSV / JSON / JSONL，也直接认 MTool 的翻译文件.json 和 entries.jsonl\n- 注入到游戏：两种方式——运行时插件（不改原文件，RPG Maker MV/MZ 生效，随时卸载）或回写 data（改动游戏数据，自动备份）\n- 一键还原：按备份把 data 逐字节恢复，sha256 校验\n- 导入坏文件会明确报错，不再静默显示「0 条」\n- CSV 按表头认列，在 Excel 里拖动列顺序也不会读错\n- 修文本抽取性能：同一批数据从 70 秒降到 15 秒（3 百万次多余的路径解析）",
+    "version": "1.5.21",
+    "changelog": "1.5.21\n- 修「收藏同步已开启但我的收藏是空的」：榜单页「我的收藏」现在会把当前同步空间里的收藏一起列出来\n- 两套收藏仍然各存各的：同步那份不会写进本地收藏文件，避免加入别人空间后把对方收藏串回自己空间\n- 在「我的收藏」里取消同步来的那条，会同时删同步那边（留墓碑，手机下次同步不会又顶回来）\n- 修「立即同步」失败却没有任何提示：同步没在运行时现在会明确告诉你原因",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.20/GameBox-1.5.20.exe",
-            "sha256": "4540c597573a04a6e5ca93b93d3a71ac441c8cb89f87a504aafb86d9e77c6e25",
-            "size": 273223260
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.21/GameBox-1.5.21.exe",
+            "sha256": "fde4a2291f8d59c1331a29ce928c7c22b91bb8e42171feecdeccf70b21fe4c0a",
+            "size": 273224926
         }
     }
 }
