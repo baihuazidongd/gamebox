@@ -1,11 +1,11 @@
 {
-    "version": "1.5.23",
-    "changelog": "1.5.23\n- 收藏同步面板精简：只显示收藏数量，不再铺开收藏条目列表\n- 删除无用的「停止同步」按钮；同步仍由前台自动进行，需要时点「立即同步」\n- 修复 PC 收藏不同步到手机：电脑上收藏/取消会写入同步空间，首次同步会把本机已有收藏补进去",
+    "version": "1.5.24",
+    "changelog": "1.5.24\n- 修复手机取消收藏后电脑这边不取消：同步拉到的墓碑会同步删掉电脑本地收藏，列表和星标一起消失\n- 修复电脑要「先点一下收藏、再点一次」才能取消：星标状态改为按「本地收藏 + 手机同步空间」判断\n- 取消收藏加二次确认（电脑弹窗、手机弹层），误点不会再把收藏同步删掉\n- 切到「我的收藏」时顺手拉一次手机端；后台同步拉回的变化会自动刷新星标",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.23/GameBox-1.5.23.exe",
-            "sha256": "9ea71c4f0bba07fcd666ec8b35ea0956319a4e30092f355b9b59e92f25aa6313",
-            "size": 273234234
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.24/GameBox-1.5.24.exe",
+            "sha256": "ad22ef8de9a5ce8aa6cfb2ee047862cedb90acb5ee738ecd04c583475d2d3316",
+            "size": 273239725
         }
     }
 }
