@@ -1,11 +1,11 @@
 {
-    "version": "1.5.22",
-    "changelog": "1.5.22\n- 更新包改成分片并发下载（8 路）：实测单连接被限到约 2Mbps，8 路能到约 27Mbps\n- 260MB 更新包从约 14 分钟降到 1~2 分钟（实测 3.33MB/s，80 秒下完）\n- 服务端不支持断点续传时自动退回原来的单连接下载，不会失败\n- 暂停 / 继续 / 关窗口后台下载 全部保留可用\n- 刷新按钮只作用于当前页签：「我的收藏」点刷新不再去抓整站榜单，状态栏也只显示当前页签的条数",
+    "version": "1.5.23",
+    "changelog": "1.5.23\n- 收藏同步面板精简：只显示收藏数量，不再铺开收藏条目列表\n- 删除无用的「停止同步」按钮；同步仍由前台自动进行，需要时点「立即同步」\n- 修复 PC 收藏不同步到手机：电脑上收藏/取消会写入同步空间，首次同步会把本机已有收藏补进去",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.22/GameBox-1.5.22.exe",
-            "sha256": "e81fb6b905f5fa6ab0bee1da9ea6766e11f44719d9fa3ee33b6ece1619bbf97f",
-            "size": 273233986
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.23/GameBox-1.5.23.exe",
+            "sha256": "9ea71c4f0bba07fcd666ec8b35ea0956319a4e30092f355b9b59e92f25aa6313",
+            "size": 273234234
         }
     }
 }
