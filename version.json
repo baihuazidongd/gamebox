@@ -1,11 +1,11 @@
 {
-    "version": "1.5.18",
-    "changelog": "1.5.18\n- 新版启动 25 秒未就绪会自动结束并重开一次（第二次必然跳过了杀毒扫描），两次都失败才回滚\n- 这直接把你「手动再点一次就好」的动作自动化了",
+    "version": "1.5.19",
+    "changelog": "1.5.19\n- 修分卷下载：购买路径正确接住整组分卷，单文件入口缺卷时自动补卷（含 .partN.rar / 裸编号 .001）\n- 解压改用随包内置的 7-Zip（7zr.exe）：同 2.59GB 加密 7z 分卷，WinRAR 0.48MB/s（要 97 分钟），7zr 13.3MB/s（5 分 48 秒），快 27 倍\n- 修加密包检测：7z 头加密/内容加密都能识别，没密码时直接提示「需要解压密码」，不再让 WinRAR 弹隐藏密码框卡死\n- 修解压误判成功：进程被杀、零产出、结果里找不到 exe 都判失败，源压缩包保留可重试\n- 解压进度只统计本次新增字节，不再把上次残留算进百分比\n- 新增榜单收藏：更新榜卡片可收藏，新增「我的收藏」页签；移除免费榜",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.18/GameBox-1.5.18.exe",
-            "sha256": "5002e6cdcfb3e1f38f950fe5596fada96689cf604640f0bb0e5ab36c619dbe4f",
-            "size": 272950560
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.19/GameBox-1.5.19.exe",
+            "sha256": "2272d43e741ba3d7cfa59e73831209299a86b637dbdd5de89ca02a56ea2ca5e3",
+            "size": 273171926
         }
     }
 }
