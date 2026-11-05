@@ -1,11 +1,11 @@
 {
-    "version": "1.5.24",
-    "changelog": "1.5.24\n- 修复手机取消收藏后电脑这边不取消：同步拉到的墓碑会同步删掉电脑本地收藏，列表和星标一起消失\n- 修复电脑要「先点一下收藏、再点一次」才能取消：星标状态改为按「本地收藏 + 手机同步空间」判断\n- 取消收藏加二次确认（电脑弹窗、手机弹层），误点不会再把收藏同步删掉\n- 切到「我的收藏」时顺手拉一次手机端；后台同步拉回的变化会自动刷新星标",
+    "version": "1.6.0",
+    "changelog": "1.6.0\n- 新增「短剧」页（在「发现」下面）：黄果短剧，直接内嵌官网，首页推荐 / 榜单 / 搜索 / 评论都能用\n- 短剧页有独立的登录态和缓存，不跟资源商店混在一起\n- 页面按需加载，不拖慢启动\n- 修复启动崩溃：QPolygonF 导入写错了模块\n- 修复游戏盒空状态卡片不居中、宽阔屏被拉成横幅",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.5.24/GameBox-1.5.24.exe",
-            "sha256": "ad22ef8de9a5ce8aa6cfb2ee047862cedb90acb5ee738ecd04c583475d2d3316",
-            "size": 273239725
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.6.0/GameBox-1.6.0.exe",
+            "sha256": "cbaba76126d0d769bd2dca45443636f3c2f4c5e192c6b8555be66d021cccb0fa",
+            "size": 273707155
         }
     }
 }
