@@ -1,11 +1,11 @@
 {
-    "version": "1.6.0",
-    "changelog": "1.6.0\n- 新增「短剧」页（在「发现」下面）：黄果短剧，直接内嵌官网，首页推荐 / 榜单 / 搜索 / 评论都能用\n- 短剧页有独立的登录态和缓存，不跟资源商店混在一起\n- 页面按需加载，不拖慢启动\n- 修复启动崩溃：QPolygonF 导入写错了模块\n- 修复游戏盒空状态卡片不居中、宽阔屏被拉成横幅",
+    "version": "1.6.2",
+    "changelog": "1.6.2\n- 短剧页新增「用网页版」按钮：客户端加载异常时可一键切到官网，再点切回\n- 短剧客户端加载失败 20 秒会自动切官网，始终给你一个能用的短剧页\n- 播放器页面 hls 请求数据失败已尝试进行自修复",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.6.0/GameBox-1.6.0.exe",
-            "sha256": "cbaba76126d0d769bd2dca45443636f3c2f4c5e192c6b8555be66d021cccb0fa",
-            "size": 273707155
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.6.2/GameBox-1.6.2.exe",
+            "sha256": "e49eea34d5a0dc92dc25dc8ed78e3b1c70d9d83df170ce05eea5b74007b2e662",
+            "size": 273731296
         }
     }
 }
