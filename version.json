@@ -1,11 +1,11 @@
 {
-    "version": "1.6.2",
-    "changelog": "1.6.2\n- 短剧页新增「用网页版」按钮：客户端加载异常时可一键切到官网，再点切回\n- 短剧客户端加载失败 20 秒会自动切官网，始终给你一个能用的短剧页\n- 播放器页面 hls 请求数据失败已尝试进行自修复",
+    "version": "1.6.3",
+    "changelog": "1.6.3\n- 短剧页改回黄果官网内嵌（稳定，每次都加载得出来）\n- 已有独立 Profile，会记住登录态和上面已点过的年龄确认",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.6.2/GameBox-1.6.2.exe",
-            "sha256": "e49eea34d5a0dc92dc25dc8ed78e3b1c70d9d83df170ce05eea5b74007b2e662",
-            "size": 273731296
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.6.3/GameBox-1.6.3.exe",
+            "sha256": "7c5314ffe23f39bfdacfaa1474eb08cf7c5d6f608abd8cd085024f17c0ecd1be",
+            "size": 273705373
         }
     }
 }
