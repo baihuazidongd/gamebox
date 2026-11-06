@@ -1,11 +1,11 @@
 {
-    "version": "1.6.4",
-    "changelog": "1.6.4\n- 查明视频无法播放的原因：内置浏览器不带 H.264/AAC 解码器，这是 Qt 官方的限制\n- 短剧页新增「用浏览器播放」：一键用系统浏览器打开同一页面，视频可以正常播放\n- 页面顶部会明确提示这个限制，不用再猜",
+    "version": "1.7.0",
+    "changelog": "1.7.0\n- 短剧页改为内嵌 HGhub 官方客户端本体：视频可以正常播放了（走系统 WebView2，带 H.264 解码）\n- 客户端窗口直接嵌在短剧页里，右上角可一键分离成独立窗口\n- 客户端随包附带，不用另外安装",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.6.4/GameBox-1.6.4.exe",
-            "sha256": "7c4e97ad3c131e564e01bdf8276233df6e49047cb8dcfbeecca139da2503fdb7",
-            "size": 273706888
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.7.0/GameBox-1.7.0.exe",
+            "sha256": "075d73c6cfb5ea0665907845994090c4203a90afe903d97a2a2a760a14a3d49a",
+            "size": 275982321
         }
     }
 }
