@@ -1,11 +1,11 @@
 {
-    "version": "1.7.0",
-    "changelog": "1.7.0\n- 短剧页改为内嵌 HGhub 官方客户端本体：视频可以正常播放了（走系统 WebView2，带 H.264 解码）\n- 客户端窗口直接嵌在短剧页里，右上角可一键分离成独立窗口\n- 客户端随包附带，不用另外安装",
+    "version": "1.7.1",
+    "changelog": "1.7.1\n- 短剧页改成应用内置本地服务，客户端不再白屏（之前报连接被拒）\n- 任务条新增「下载 / 解压」分段标签，进度更清楚\n- 修掉解压到最后一层才找 exe 的问题：四层套娃、音频包在深层时也能正确找到游戏本体\n- 修掉站点把整套分卷打成「xxx等N个文件.zip」时误报「缺少 z01」的问题",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.7.0/GameBox-1.7.0.exe",
-            "sha256": "075d73c6cfb5ea0665907845994090c4203a90afe903d97a2a2a760a14a3d49a",
-            "size": 275982321
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.7.1/GameBox-1.7.1.exe",
+            "sha256": "9bd3d2f7faf0a491f78ee10cb74c1cae0633edbf63981f2286b962efe503f471",
+            "size": 275853007
         }
     }
 }
