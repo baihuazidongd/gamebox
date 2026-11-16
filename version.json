@@ -1,6 +1,6 @@
 {
     "version": "1.8.1",
-    "changelog": "1.8.1\n- 服务端迁移：更新源切换到新服务器，收藏同步改走 HTTPS（api.haqizong.top）",
+    "changelog": "1.8.1\n- 服务端迁移：更新源切换到新服务器，收藏同步改走 HTTPS",
     "binary": {
         "x64": {
             "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.8.1/GameBox-1.8.1.exe",
