@@ -1,11 +1,11 @@
 {
-    "version": "1.8.1",
-    "changelog": "1.8.1\n- 服务端迁移：更新源切换到新服务器，收藏同步改走 HTTPS",
+    "version": "1.8.2",
+    "changelog": "1.8.2\n- 更新与同步改用独立域名（HTTPS），不再直连 IP\n- 收藏同步地址同步升级",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.8.1/GameBox-1.8.1.exe",
-            "sha256": "92a6f20f445a8575076b6819725bb61c16f106d18f68797add72808a9991dc78",
-            "size": 275865040
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.8.2/GameBox-1.8.2.exe",
+            "sha256": "b4d074e5c872336ccf480a7f76df721ef8a21392ba43553481f566f4356bfcc1",
+            "size": 275863383
         }
     }
 }
