@@ -1,11 +1,12 @@
 {
-    "version": "1.8.2",
-    "changelog": "1.8.2\n- 更新与同步改用独立域名（HTTPS），不再直连 IP\n- 收藏同步地址同步升级",
+    "version": "1.8.4",
+    "changelog": "1.8.4\n- 展柜轨道改成滑动窗口：缩略图不再互相盖住，滚到哪里一眼看得见\n- 大卡右侧信息撑满，去掉上下大片空白\n- 已购资源自动补存封面和简介\n- 下载串包拦截，重复下载自动去重\n- 新增浅色/深色外观开关",
     "binary": {
         "x64": {
-            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.8.2/GameBox-1.8.2.exe",
-            "sha256": "b4d074e5c872336ccf480a7f76df721ef8a21392ba43553481f566f4356bfcc1",
-            "size": 275863383
+            "url": "https://github.com/baihuazidongd/gamebox/releases/download/v1.8.4/GameBox-1.8.4.exe",
+            "sha256": "5c912f75169cdd27d77836453dc9bf50a392de238800239b63a72b71da66b58f",
+            "size": 275992594
         }
-    }
+    },
+    "build_date": "2026-11-25"
 }
